@@ -1,0 +1,19 @@
+.home-list-item {
+  width: 50%;
+  padding: 5px 0;
+}
+
+.item-image {
+  width: 98%;
+  padding-bottom: 5px;
+}
+
+.price-decr {
+  font-size: 16px;
+}
+
+.item-price {
+  font-size: 16px;
+
+  color: #fe615a;
+}

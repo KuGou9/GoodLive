@@ -1,0 +1,48 @@
+#home-header {
+  height: 45px;
+  line-height: 45px;
+  background-color: #ff3530;
+  display: flex;
+  text-align: center;
+}
+
+.home-header-left {
+  display: inline-block;
+  width: 60px;
+  margin-left: 10px;
+  color: white;
+}
+
+.home-header-left i {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.home-header-right {
+  width: 40px;
+  color: white;
+}
+
+.home-header-middle {
+  flex: 1;
+  height: 33px;
+  line-height: 33px;
+  margin: auto 0;
+  background-color: #e6e6e6;
+  margin-left: 8px;
+}
+
+.middle-container {
+  display: flex;
+}
+.home-header-middle i {
+  flex: 1;
+  float: left;
+}
+.home-header-middle input {
+  flex: 9;
+  border: none;
+  /*  去除选中状态边框 */
+  outline: none;
+  font-size: 18px;
+}

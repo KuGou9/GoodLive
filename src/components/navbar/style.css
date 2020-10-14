@@ -1,0 +1,32 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  height: 49px;
+  line-height: 23px;
+  background-color: white;
+  box-shadow: -1px -2px 1px #f6f6f6;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.navbar-item {
+  width: 25%;
+  vertical-align: center;
+}
+
+i {
+  display: block;
+  margin-top: 3px;
+}
