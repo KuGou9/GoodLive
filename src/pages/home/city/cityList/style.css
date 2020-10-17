@@ -1,0 +1,25 @@
+.city-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  /* 设置各行之间空白均分 */
+  align-content: space-around;
+  /* 设置各列之间空白均分 */
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.city-item {
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #abb2bf;
+  flex: 0 0 30%;
+  margin: 5px 5px;
+}
+
+.title {
+  margin-left: 3%;
+}

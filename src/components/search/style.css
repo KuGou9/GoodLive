@@ -1,0 +1,14 @@
+.middle-container {
+  display: flex;
+}
+.home-header-middle i {
+  flex: 1;
+  float: left;
+}
+.home-header-middle input {
+  flex: 9;
+  border: none;
+  /*  去除选中状态边框 */
+  outline: none;
+  font-size: 18px;
+}

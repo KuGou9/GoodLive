@@ -15,7 +15,10 @@ class Home extends React.Component {
   render() {
     return (
       <div id="home">
-        <HomeHeader />
+        <HomeHeader
+          currentCity={this.props.currentCity}
+          history={this.props.history}
+        />
         <Swiper banners={[img1, img2]} />
         <HomeList data={this.props.homeData} />
       </div>
@@ -27,6 +30,7 @@ const mapStateToProps = (state) => {
   return {
     //  这里的home代表的是reducer的文件名字
     homeData: state.home,
+    currentCity: state.currentCity,
   };
 };
 

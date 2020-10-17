@@ -1,0 +1,17 @@
+.common-header {
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #ff3530;
+  color: white;
+  display: flex;
+}
+
+.header-title {
+  display: inline-block;
+  flex: 1;
+}
+
+.back-icon {
+  width: 30px;
+}

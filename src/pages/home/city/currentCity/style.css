@@ -1,0 +1,7 @@
+.current-city {
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  box-shadow: 1px 1px 1px #e6e6e6;
+  margin-bottom: 10px;
+}
