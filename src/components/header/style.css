@@ -13,5 +13,6 @@
 }
 
 .back-icon {
+  box-sizing: border-box;
   width: 30px;
 }

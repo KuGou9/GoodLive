@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import CityHeader from './cityHeader/CityHeader';
+import CityHeader from '../../../components/header/Header';
 import CurrentCity from './currentCity/index';
 import CityList from './cityList/CityList';
 import { connect } from 'react-redux';

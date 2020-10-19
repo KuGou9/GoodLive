@@ -1,11 +1,16 @@
-.middle-container {
+.container {
+  box-sizing: border-box;
   display: flex;
+  height: 33px;
+  line-height: 33px;
+  margin: auto 0;
+  background-color: #e6e6e6;
+  margin-left: 8px;
 }
-.home-header-middle i {
+.container i {
   flex: 1;
-  float: left;
 }
-.home-header-middle input {
+.container input {
   flex: 9;
   border: none;
   /*  去除选中状态边框 */

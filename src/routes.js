@@ -4,7 +4,8 @@ const Home = lazy(() => import('./pages/home/Home'));
 const Shop = lazy(() => import('./pages/shop/Shop'));
 const Life = lazy(() => import('./pages/life/life'));
 const Me = lazy(() => import('./pages/me/Me'));
-const SearchResult = lazy(() => import('./pages/searchResult/index'));
+const SearchResult = lazy(() => import('./pages/searchResult/SearchResult'));
+const Detail = lazy(() => import('./pages/details/Details'));
 
 const NotFound = lazy(() => import('./pages/NotFound/NotFound'));
 
@@ -21,6 +22,7 @@ export default (
 
         <Route path="/city" component={City}></Route>
         <Route path="/search/:content" component={SearchResult}></Route>
+        <Route path="/detail" component={Detail}></Route>
 
         <Route path="*" component={NotFound}></Route>
       </Switch>

@@ -27,11 +27,5 @@
 
 .home-header-middle {
   flex: 1;
-  height: 33px;
-  line-height: 33px;
-  margin: auto 0;
-  background-color: #e6e6e6;
-  margin-left: 8px;
+  padding: 6px 0;
 }
-
-

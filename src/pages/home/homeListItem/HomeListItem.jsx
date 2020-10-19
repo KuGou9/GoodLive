@@ -1,11 +1,12 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 class HomeListItem extends React.Component {
   render() {
     return (
       <div className="home-list-item">
-        <a href={this.props.data.href}>
+        <Link to="/detail">
           <img src={this.props.data.image} alt="" className="item-image" />
           <div className="item-decr"></div>
           <p className="item-name">{this.props.data.decr}</p>
@@ -15,7 +16,7 @@ class HomeListItem extends React.Component {
             <span className="item-price">{this.props.data.price1}</span>
             <p className="item-price">{this.props.data.price2}</p>
           </span>
-        </a>
+        </Link>
       </div>
     );
   }

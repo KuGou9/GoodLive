@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-export default class CityHeader extends React.Component {
+export default class Header extends React.Component {
   clickBackHandler() {
     /**
      * 返回到上一级
