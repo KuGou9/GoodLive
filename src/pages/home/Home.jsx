@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import NavBar from '../../components/navbar/NavBar';
 import HomeHeader from './homeHeader/HomeHeader';
 import Swiper from '../../components/swiper/Swiper';
 import img1 from '../../static/img/room1.jpg';
@@ -16,6 +17,7 @@ class Home extends React.Component {
   render() {
     return (
       <div id="home">
+        <NavBar />
         <HomeHeader
           currentCity={this.props.currentCity}
           history={this.props.history}

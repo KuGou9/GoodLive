@@ -1,0 +1,40 @@
+.tabbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.tabbar-item {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+}
+
+.title-active {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ff5555;
+  color: #ff5555;
+}
+
+.title {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid black;
+}
+
+.content-active {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #586069;
+}
+
+.content-hide {
+  display: none;
+  height: 50px;
+  line-height: 50px;
+}

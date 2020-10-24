@@ -7,6 +7,7 @@ import { getDetailData } from '../../redux/actions/detail';
 import DetailHeader from '../../components/header/Header';
 import Swiper from '../../components/swiper/Swiper';
 import Footer from './detailFooter/DetailFooter';
+import TabBar from '../../components/tabbar/TabBar';
 
 class Detail extends React.Component {
   componentDidMount() {
@@ -29,8 +30,12 @@ class Detail extends React.Component {
             {this.props.data.price && this.props.data.price.price2}
           </div>
         </div>
+        <TabBar>
+          <div title="标题1" content="内容1"></div>
+          <div title="标题2" content="内容2"></div>
+        </TabBar>
 
-        <Footer />
+        <Footer history={this.props.history} />
       </div>
     );
   }

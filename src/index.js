@@ -15,7 +15,6 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 
 import './index.css';
 import './static/icons/iconfont.css';
-import NavBar from './components/navbar/NavBar';
 
 const store = createStore(
   rootReducer,
@@ -25,7 +24,6 @@ const store = createStore(
 ReactDOM.render(
   <Provider store={store}>
     <Router routes={routes}>
-      <NavBar />
       {/* 要解析，不解析不作用 */}
       {routes}
     </Router>
